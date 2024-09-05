@@ -10,7 +10,7 @@ load_dotenv()
 
 bot_caller: str = "/bot"
 
-discord_token = os.environ.get("DISCORD_TOKEN")
+discord_token = os.environ.get("MTIzMzQyMzE2MDY5MTM5MjYxNQ.GGkApb.7FjXlF-jnSF_AMzPGmuj3b0jZLGl5U94x9B_QQ")
 
 class CustomDiscordClient(Client):
     async def on_ready(self):
